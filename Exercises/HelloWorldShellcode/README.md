@@ -6,4 +6,3 @@ Contains:
 * HelloWorldShellcode.nasm - Hello World shellcode utilizing the JMP-CALL-POP technique
 * HelloWorldStack.nasm - Hello World shellcode using the stack
 * shellcode.c - Shellcode execution wrapper (currently contains HelloWorldStack shellcode)
-* reverse.py - Utility program (written by Vivek) to easily prepare a string to be placed on the stack
