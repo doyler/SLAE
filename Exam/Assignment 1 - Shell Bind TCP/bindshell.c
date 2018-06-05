@@ -1,3 +1,7 @@
+# SLAE Exam Assignment #1: Shell Bind TCP Shellcode - C Version
+# Author: Ray Doyle (@doylersec)
+# Website: https://www.doyler.net
+
 #include <stdio.h>
 #include <netinet/in.h>
 

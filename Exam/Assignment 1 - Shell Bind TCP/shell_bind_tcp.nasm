@@ -1,6 +1,8 @@
 ; Filename: shell_bind_tcp.nasm
-; Author: Ray Doyle
+; Author: Ray Doyle (@doylersec)
 ; Website: https://www.doyler.net
+;
+; Purpose: SLAE Exam Assignment #1 - Shell Bind TCP Shellcode (Linux/x86)
 
 global _start            
 

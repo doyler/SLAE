@@ -7,3 +7,4 @@ Contains the Following Applications:
 * bindshell.c - Shell_Bind_TCP Application written in C
 * shell_bind_tcp.nasm - Shell_Bind_TCP Assembly program
 * shellcode.c - Shellcode execution wrapper (contains 90 byte shell_bind_tcp shellcode)
+* generate_bind_shellcode.py - Shellcode generator for shell_bind_tcp that allows for easy configuration of the listening port
