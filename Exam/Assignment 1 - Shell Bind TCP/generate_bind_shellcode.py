@@ -12,7 +12,7 @@ if port > 65535:
 	print "\nPort is greater than 65535.\n"
 	exit()
 elif port < 1024:
-	print "\nPort is smaller than 1024. Note that root will be required for this.\n"
+	print "\nPort is smaller than 1024. Note that root is required for this.\n"
 	exit()			
 else:
     print "\nOriginal port: " + str(port)
