@@ -14,9 +14,9 @@ if port > 65535:
 elif port < 1024:
 	print "\nPort is smaller than 1024. Note that root is required for this.\n"
 	exit()			
-else:
-    print "\nOriginal port: " + str(port)
-    print "Converted to hexidecimal: " + hex(port)[2:]
+
+print "\nOriginal port: " + str(port)
+print "Converted to hexidecimal: " + hex(port)[2:]
 
 # https://stackoverflow.com/questions/13261109/python-string-of-binary-escape-sequences-as-literal
 encodedPort = ''.join(map(lambda c:'\\x%02x'%c, map(ord, struct.pack('!H', port))))
