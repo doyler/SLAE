@@ -10,11 +10,11 @@ ip = "127.1.1.1"
 port = 4444
 
 if port > 65535:
-	print "\nPort is greater than 65535.\n"
-	exit()
+    print "\nPort is greater than 65535.\n"
+    exit()
 elif port < 1024:
-	print "\nPort is smaller than 1024. Note that root is required for this.\n"
-	exit()			
+    print "\nPort is smaller than 1024. Note that root is required for this.\n"
+    exit()
 
 print "\nOriginal port: " + str(port)
 print "Converted to hexidecimal: " + hex(port)[2:]
