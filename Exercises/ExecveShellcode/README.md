@@ -9,4 +9,4 @@ Contains:
 * execve-argv.nasm - Execve shellcode (/bin/ls) including argument (-al) using JMP-CALL-POP
 * execve-argv-stack.nasm - Execve shellcode including arguments (/bin/ls -a) utilizing the stack
 * shellcode.c - Shellcode execution wrapper (currently contains execve '/bin/cat /etc/shadow' shellcode)
-* execve-shellcode-generator - Execve shellcode generator that allows for custom binaries and arguments
+* execve-shellcode-generator.py - Execve shellcode generator that allows for custom binaries and arguments
