@@ -5,3 +5,4 @@ Contains the Following Applications:
 * HelloWorld - https://www.doyler.net/security-not-included/assembly-hello-world
 * HelloWorldShellcode - https://www.doyler.net/security-not-included/hello-world-shellcode
 * ExecveShellcode - https://www.doyler.net/security-not-included/execve-shellcode-generator
+* XorDecoderShellcode - https://www.doyler.net/security-not-included/shellcode-xor-encoder-decoder
