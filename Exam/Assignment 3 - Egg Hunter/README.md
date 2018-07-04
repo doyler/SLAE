@@ -1,5 +1,5 @@
 # SLAE Exam - Egg Hunter Shellcode (Assignment #3)
-Solution for assignment #3 (egghunter) of the SLAE exam
+Solution for assignment #3 (egg hunter) of the SLAE exam
 
 For more information, please see the following blog post - https://www.doyler.net/security-not-included/egg-hunter-shellcode
 
