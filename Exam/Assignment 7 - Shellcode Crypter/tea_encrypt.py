@@ -73,7 +73,7 @@ def main():
     # This is for the overflow occasionally caused by the unsigned integer addition
     warnings.filterwarnings("ignore")
 
-    # Pad the shellcode length to be divisible by 8, mades encrypting/decrypting easier
+    # Pad the shellcode length to be divisible by 8, makes encrypting/decrypting easier
     while not (len(shellcode) % 8 == 0):
         shellcode += "\x90"
 
