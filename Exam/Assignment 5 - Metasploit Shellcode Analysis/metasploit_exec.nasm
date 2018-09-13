@@ -32,4 +32,4 @@ exec:
 
 call_exec:
    call exec
-   userinfo: db "cat /etc/passwd"
+   command: db "cat /etc/passwd"
