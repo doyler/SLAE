@@ -42,7 +42,7 @@ _start:
 
    push 0x61702f2f  ; Line 6
 
-   ; Extra push to break up the original strung
+   ; Extra push to break up the original string
    push 0x13371337
 
    push 0x64777373  ; Line 5
