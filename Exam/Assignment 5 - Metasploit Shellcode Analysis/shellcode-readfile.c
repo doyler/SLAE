@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode prints out the contents of /etc/passwd to STDOUT. The target file can be modified in the 'message' section of the shellcode.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/metasploit-shellcode-analysis
 */

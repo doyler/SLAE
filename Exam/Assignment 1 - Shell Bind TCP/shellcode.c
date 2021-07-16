@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: The following shellcode binds to port 4444 and passes all STDIN/STDOUT/STDERR between /bin/sh and the socket. The port can be modified in the 'bind' section of the shellcode.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/shell-bind-tcp-shellcode
 */

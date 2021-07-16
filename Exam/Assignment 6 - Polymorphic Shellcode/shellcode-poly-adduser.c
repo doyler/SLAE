@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode adds the user 'r00t' with a blank '' password to /etc/passwd.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/polymorphic-shellcode
 */

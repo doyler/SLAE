@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode executes /bin/bash.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/polymorphic-shellcode
 */

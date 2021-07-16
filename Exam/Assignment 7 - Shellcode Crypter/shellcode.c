@@ -5,6 +5,9 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode will execute the encrypted shellcode in 'EncryptedShellcode'. This shellcode has been encrypted with the Tiny Encryption Algorithm.
+*       In this case, the shellcode will execute /bin/sh. The encoder can be found at the below blog post, if you want to modify your payload.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/custom-shellcode-crypter
 */

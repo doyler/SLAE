@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode adds a line to /etc/hosts for "127.1.1.1  google.com". This can be modified in the 'write' section of the shellcode.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/polymorphic-shellcode
 */

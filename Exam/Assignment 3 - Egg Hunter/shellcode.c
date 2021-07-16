@@ -5,6 +5,9 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This is a 51 byte egghunter that will verify payload length as well as a checksum. In this case, the payload shellcode will print 'Hello World!', but this can be modified in the 'code'
+*       variable below. The checksum can either be calulated by hand by summing all the bytes, or by using the Python script provided at the below URL.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/egg-hunter-shellcode
 */

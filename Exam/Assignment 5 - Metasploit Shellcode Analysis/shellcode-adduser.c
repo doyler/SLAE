@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode adds the user 'metasploit' with the password 'password' to /etc/passwd. This can be modified in the 'userinfo' section of the shellcode.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/metasploit-adduser-analysis
 */

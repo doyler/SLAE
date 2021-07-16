@@ -5,6 +5,9 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: This shellcode will execute the encoded shellcode in 'encoded'. This shellcode has been encoded with a random bytewise XOR + insertion scheme.
+*       In this case, the shellcode will print 'Hello World!' to the screen. The encoder can be found at the below blog post for modifying your payload.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/shellcode-encoding-random-bytewise-xor
 */

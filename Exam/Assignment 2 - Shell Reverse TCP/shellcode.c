@@ -5,6 +5,8 @@
 *  Author:   Ray Doyle (@doylersec)
 *  Website:  http://www.doyler.net
 *  
+*  Description: The following shellcode executes a reverse TCP connection to 127.0.0.1 on port 4444 and executes /bin/sh. The connection information can be modified in the 'connect' section of the shellcode.
+*
 *  For more information on this shellcode, please see the following blog post:
 *  https://www.doyler.net/security-not-included/shell-reverse-tcp-shellcode
 */
